@@ -7,11 +7,6 @@
 
 ---
 
-# Table of Contents
-
-
-[TOC]
-
 
 ## Abstract
 
@@ -23,7 +18,7 @@ It provides a dramatically better user experience and at the same time a higher 
 ## Latest revision of this White Paper
 
 Status: Draft
-Latest update: 2015-05-07
+Latest update: 2015-10-04
 
 ---
 
@@ -86,7 +81,7 @@ Users might create **Throw-away accounts** on the spur of the moment for testing
 
 ### Sequence for throw-away accounts
 
-![Throw-away accounts](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/throw-away-accounts.png)
+![Throw-away accounts](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/github/throw-away-accounts.png)
 
 
 ### Please note 
@@ -102,13 +97,13 @@ Users might create **Throw-away accounts** on the spur of the moment for testing
 
 ### Sequence for first handshake between device and relying party
 
-![First-handshake sensitive accounts](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/sensitive-accounts-handshake.png)
+![First-handshake sensitive accounts](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/github/sensitive-accounts-handshake.png)
 
 
 
 ### Sequence for Sensitive Account (after first handshake)
 
-![Flow sensitive accounts](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/sensitive-accounts-flow.png)
+![Flow sensitive accounts](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/github/sensitive-accounts-flow.png)
 
 
 
@@ -133,7 +128,7 @@ There are only 6 allowed action for exchange information with the SingleID Serve
 
 Five are from a user's device
 
-:	1. getnewSingleID
+	1. getnewSingleID
 	2. bringbackmypwd
 	3. tellmemore
 	4. updatepushID
@@ -142,12 +137,12 @@ Five are from a user's device
 
 One is from the recipient system
 
-:	1. askfordata
+	1. askfordata
 
 
 ## What happens in a User's Device
 
-![App flow](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/App-flow.png)
+![App flow](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/github/App-flow.png)
 
 # Interactions between Device and SingleID Server
 
@@ -169,7 +164,7 @@ The App have to send the following POST DATA, over SSL, to the SingleID Server
 
 PLATFORM
 
-: 	Permitted values are:
+	Permitted values are:
 	Value  | Details
 	---- | -------
 	GCM  | for Android device
@@ -178,7 +173,7 @@ PLATFORM
 
 REGISTRATION_ID
 
-:	Is the "Push id" of the Device
+	Is the "Push id" of the Device
 	Value  | Details
 	---- | -------
 	RegistrationId  | for Android device
@@ -188,22 +183,22 @@ REGISTRATION_ID
 	
 TOKEN
 
-:   Must be a random string of 32chars hexadecimal created from the app
+	Must be a random string of 32chars hexadecimal created from the app
 Tecnically speaking this is the unique value that could identify a device.
 **Remember that we do not rely on UUID for privacy reason.**
 
 DETECTED_DEVICE_LANGUAGE
 
-:	2 char code (from [iso 639 standard](http://en.wikipedia.org/wiki/ISO_639))
+	2 char code (from [iso 639 standard](http://en.wikipedia.org/wiki/ISO_639))
 todate allowed value are: it, en, bg, de.
  
 APP_VERSION
 
-:	A value between 1.0 and 1.2 
+	A value between 1.0 and 1.2 
 	
 DEVICE_TYPE
 
-:	Permitted values are:
+	Permitted values are:
 	|Value  | Details
 	|---- | -------
 	|smartphone  | for stat purposes only
@@ -213,7 +208,7 @@ DEVICE_TYPE
 	
 ACTION_ID
 
-:	Permitted value is:
+	Permitted value is:
 	getnewSingleID
 	
 
@@ -238,22 +233,22 @@ The response of the server, in case of a correct request, must be a Json string 
 
 
 SIDVer
-:	The Software Server version.
+	The Software Server version.
 	
 Reply
-:	The status of the request. Could be 'ok' or 'ko'
+	The status of the request. Could be 'ok' or 'ko'
 	
 SingleID
-:	The SingleID that the Server has associated to the TOKEN sent before. We identify a device from his TOKEN
+	The SingleID that the Server has associated to the TOKEN sent before. We identify a device from his TOKEN
 	
 Password
-:	All the personal data stored inside the device must be encrypted with AES 256 with this password. The password must not be saved into the device.
+	All the personal data stored inside the device must be encrypted with AES 256 with this password. The password must not be saved into the device.
 
 Recovery Key
-:	This is a secret value that had to be stored inside the device for future purposes
+	This is a secret value that had to be stored inside the device for future purposes
 	
 Popup(*)
-:	Are string values that could be displayed to the user from the App
+	Are string values that could be displayed to the user from the App
 	
 ---
 
@@ -291,16 +286,16 @@ The response of the server in case of a correct request will be a Json string li
 
 
 SIDVer
-:	the Software Server version.
+	the Software Server version.
 	
 Reply
-:	the status of the request. Could be 'ok' or 'ko'
+	the status of the request. Could be 'ok' or 'ko'
 	
 Password
-:	All the data stored inside the device must be encrypted with AES 256 with this password. The password must not be saved into the device.
+	All the data stored inside the device must be encrypted with AES 256 with this password. The password must not be saved into the device.
 
 Popup(*)
-:	Are string values that should be displayed to the user
+	Are string values that should be displayed to the user
 
 --- 
 
@@ -340,24 +335,24 @@ The payload of a push notification is too small to contain all the data so when 
 ---
 
 SingleID
-:	The device SingleID. Is included for future purposes only.
+	The device SingleID. Is included for future purposes only.
 	
 Date
 : 	Date of the request ( [ISO 8601 standard](http://en.wikipedia.org/wiki/ISO_8601) )
 	
 Name
-:	Name of the recipient system. Should be displayed to the user.
+	Name of the recipient system. Should be displayed to the user.
 	
 Logo_url
-:	Logo of the recipient system. Should be displayed to the user.
+	Logo of the recipient system. Should be displayed to the user.
 
 url_waiting_data
-:	The url where the app must send the data if the user accepts.
+	The url where the app must send the data if the user accepts.
 	
 requested_data_group
-:	Which type of data the recipient system is asking for. The user must not change this value.
+	Which type of data the recipient system is asking for. The user must not change this value.
 
-:	Permitted values are:
+	Permitted values are:
 	|Value  | Meaning
 	|---- | -------
 	|1  | Personal Data / Company Data
@@ -372,8 +367,8 @@ ssl
 : 	Must be 0 for http or 1 for https ( related to url_waiting_data )
 
 UTID
-:	Acronym for Unique Transaction ID. Must be a hexadecimal 32char string. Is generated randomly from the recipient system at the beginning of the request.
-:	The value must be sent with the personal data to the `url_waiting_data`
+	Acronym for Unique Transaction ID. Must be a hexadecimal 32char string. Is generated randomly from the recipient system at the beginning of the request.
+	The value must be sent with the personal data to the `url_waiting_data`
 	
 --- 
 	
@@ -516,7 +511,7 @@ We are working on including bcrypt algorithm to replace md5 asap.
 
 --- 
 
-![Remote Lock](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/SingleID-Remote-Lock.png)
+![Remote Lock](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/github/SingleID-Remote-Lock.png)
 
 ### Response to a correct setmyrecoveryemail request
 
@@ -563,26 +558,8 @@ Another way to read the data stored in a SingleID Device is reading a QrCode.
 The QrCode specs are written below.
 
 
-```flow
-st=>start: Recipient System
-e=>end
+![SingleID Flow](https://dl.dropboxusercontent.com/u/10636650/screenshot-markdown-SingleID/github/Flow.png)
 
-op2=>operation: SingleID Web Plugin button
-op3=>operation: Push Notification reach user's device
-op4=>operation: User's App replies with the requested dataset
-op5=>end: The Plugin will fill the webform
-sub2=>subroutine: [REST CALL] Asking SingleID Server to forward request to corresponding device
-cond=>condition: Enter your SingleID
-cond2=>condition: User accept ?
-io=>operation: You have to manually fill the form
-
-st->op2->cond
-cond(no)->io(bottom)->e
-cond(yes)->sub2->op3->cond2
-cond2(no)->io->e
-cond2(yes)->op4
-op4->op5
-```
 
 ## Plugin Installation
 
@@ -619,8 +596,8 @@ Place this code where you want to display the button:
 
 PLEASE NOTE:
 
-:	You need also to create a folder called *userdata/* and make it writable from plugin.php
-:	Please make sure that this folder is not browsable. For better security we recommended to create an empty index.html in this folder
+	You need also to create a folder called *userdata/* and make it writable from plugin.php
+	Please make sure that this folder is not browsable. For better security we recommended to create an empty index.html in this folder
 
 ---
 
@@ -631,7 +608,7 @@ Before testing you have to define 5 constants at the beginning of plugin.php
 
 LOGO_URL
 
-:	This is the full HTTP URL of your logo
+	This is the full HTTP URL of your logo
 	This logo will be displayed on the App when you will asking a request to the user.
 	The logo will be showed inside a rectangle of 100x80 px so be careful with dimension and size in kb
 	The logo should not have any trasparency.
@@ -644,7 +621,7 @@ example:
 ---
 Really Important:
 
-:	- if the image is not reachable from web the push notification to the user will not be sent and will silenty fail !
+	- if the image is not reachable from web the push notification to the user will not be sent and will silenty fail !
 	- The url MUST NOT be on https://
 	- The url MUST NOT be over 50kb
 
@@ -652,7 +629,7 @@ Really Important:
 	
 SITE_NAME
  
-:	This is the label that the user will see on the SingleID App when they receive a Push notification.
+	This is the label that the user will see on the SingleID App when they receive a Push notification.
 	
 example:
 
@@ -665,7 +642,7 @@ example:
 
 Requested_data
 
-:	This is the type of data that you could ask to a device.
+	This is the type of data that you could ask to a device.
 These are the allowed values and their meaning
 
 	|String Value  | Meaning
@@ -704,7 +681,7 @@ A login request should appear in this way
 	
 billing_key
 
-:	You are free to ask the set "1" with or without this field filled.
+	You are free to ask the set "1" with or without this field filled.
 	In order to ask for the other set you MUST type in this field the billing_key.
 	You can obtain a billing key on the website www.singleid.com 
 
@@ -875,34 +852,34 @@ The data request must contain the following POST data
 
 SingleID
 
-:	The value typed in the plugin
+	The value typed in the plugin
 
 UTID
 
-:	A random value. must be an Md5 or a hex 32 char length
+	A random value. must be an Md5 or a hex 32 char length
 
 LOGO_URL
 
-:	described above
+	described above
 
 SITE_NAME
 
-:	described above
+	described above
 
 requested_data
 
-:	already described
+	already described
 
 ssl 
 
-:	could be 1 or 0 if the requested_data is = 1. otherwise must be 1
+	could be 1 or 0 if the requested_data is = 1. otherwise must be 1
 
 url_waiting_data
  
-:	The url where the app had to send the data
+	The url where the app had to send the data
 
 ACTION_ID
-:	must be "askfordata"
+	must be "askfordata"
 
 
 --- 
