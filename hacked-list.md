@@ -7,6 +7,44 @@
 ## List of security breaches that, by design, would never have happened with SingleID
 
 
+
+---
+
+
+
+
+### Hackers have accessed details of 1,827 Vodafone customers
+
+http://mediacentre.vodafone.co.uk/pressrelease/statement-on-unauthorised-account-access/
+
+2015-10-31
+
+Vodafone UK was subject to an attempt to access some customers’ account details.
+
+This incident was driven by criminals using email addresses and passwords acquired from an unknown source external to Vodafone.  Vodafone’s systems were not compromised or breached in any way.
+
+Whilst our security protocols were fundamentally effective, we know that 1,827 customers have had their accounts accessed, potentially giving the criminals involved:
+
+The customer’s name;
+their mobile telephone number
+their bank sort code
+the last 4 digits of their bank account
+
+---
+
+### TalkTalk cyber-attack: Website hit by 'significant' breach
+
+http://www.bbc.com/news/uk-34611857
+
+2015-10-22
+
+TalkTalk has confirmed that the amount of data stolen is nowhere near as bad as early reports suggested, but that 1.2 million email addresses, names and phone numbers were taken. Some 21,000 unique bank accounts and sort codes were also accessed, along with 28,000 credit and debit card details with the middle six digits obscured. Around 15,000 dates of birth were also taken.
+
+Some papers reported this weekend that the information was being sold for £1.62 per record on the dark web, although this is largely conjecture.
+
+The hacked ISP, which boasts four million, now angry, customers, has confirmed that it will not let anyone out of their contracts without paying exit fees of anything up to hundreds of pounds, unless they can prove that they have had money stolen as a direct result of the attack.
+
+
 ---
 ### Experian Hacked -> T-mobile affected
 
