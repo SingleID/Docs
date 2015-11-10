@@ -11,7 +11,15 @@
 ---
 
 
+### Comcast says it’s not to blame after 200,000 user accounts were put up for sale online
 
+https://www.washingtonpost.com/news/the-switch/wp/2015/11/09/comcast-says-its-not-to-blame-after-200000-accounts-were-illegally-put-up-for-sale/
+
+2015-11-09
+
+Comcast will reset the passwords of roughly 200,000 customers after their account information wound up for sale on a shadowy Web site, the company said Monday.
+
+The package of personal data, including the e-mail addresses and passwords of Comcast customers, was listed for sale for $1,000 on a Dark Web site that was also marketing a number of other questionable goods.
 
 ### Hackers have accessed details of 1,827 Vodafone customers
 
