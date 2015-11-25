@@ -10,6 +10,15 @@
 
 ---
 
+### Hilton Hotels admits hackers planted malware and stole customer card details
+
+http://krebsonsecurity.com/2015/09/banks-card-breach-at-hilton-hotel-properties/
+
+2015-11-25
+
+This evening Hilton Worldwide issued a statement confirming rumours that have swirled around for the last couple of months, stating that malware had found its way onto point-of-sale systems and stole payment card information.
+
+That stolen information includes cardholder names, payment card numbers, security codes and expiry dates. However, addresses and PINs have not been exposed.
 
 ### Comcast says it’s not to blame after 200,000 user accounts were put up for sale online
 
