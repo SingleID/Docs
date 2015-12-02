@@ -10,6 +10,17 @@
 
 ---
 
+
+### Hacked Toymaker VTech Admits Breach Actually Hit 6.3 Million Children
+
+http://motherboard.vice.com/read/hacked-toymaker-vtech-admits-breach-actually-hit-63-million-children
+
+2015-12-02
+
+In total 4,854,209 customer (parent) accounts and 6,368,509 related kid profiles worldwide are affected, which includes approximately 1.2 million Kid Connect parent accounts.  In addition, there are 235,708 parent and 227,705 kids accounts in PlanetVTech. Kid profiles unlike account profiles only include name, gender and birthdate.
+
+VTech also admitted that its database “was not as secure as it should have been,” and that it didn’t know of the data breach until Motherboard alerted them. But VTech said last week in an email that “we were not aware of this unauthorized access until you alerted us.” 
+
 ### Hilton Hotels admits hackers planted malware and stole customer card details
 
 http://krebsonsecurity.com/2015/09/banks-card-breach-at-hilton-hotel-properties/
