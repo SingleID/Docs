@@ -11,6 +11,14 @@
 ---
 
 
+### Spotify Hacked
+http://techcrunch.com/2016/04/25/hundreds-of-spotify-credentials-appear-online-users-report-accounts-hacked-emails-changed/
+
+2016-04-25
+
+A list containing hundreds of Spotify account credentials – including emails, usernames, passwords, account type and other details – has popped up on the website Pastebin, in what appears to be a possible security breach.
+
+
 ### Hacked Toymaker VTech Admits Breach Actually Hit 6.3 Million Children
 
 http://motherboard.vice.com/read/hacked-toymaker-vtech-admits-breach-actually-hit-63-million-children
