@@ -11,6 +11,15 @@
 ---
 
 
+### Beautiful people hacked
+https://www.wired.com/2016/04/beautiful-people-hack/
+
+2016-04-25
+
+It’s a site that only lets in the genetically blessed based on some mysterious beauty metric – and today the personal data of 1.1 million BeautifulPeople.com members is for sale on the black market. It’s only a slice of data from 2015, and the company says the leak’s been patched up, but data once stolen can never be controlled: and so 1.1 million names of self-declared Beautiful People will now begin circulating. 
+
+
+
 ### Spotify Hacked
 http://techcrunch.com/2016/04/25/hundreds-of-spotify-credentials-appear-online-users-report-accounts-hacked-emails-changed/
 
