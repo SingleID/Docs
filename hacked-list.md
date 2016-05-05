@@ -11,6 +11,21 @@
 ---
 
 
+### Webmail firms probe login 'leak'
+
+http://www.bbc.com/news/technology-36204531
+
+2016-05-04
+
+Several popular webmail providers are investigating a report that millions of their users' login details are being shared online by a hacker.
+
+Google Gmail, Yahoo Mail, Microsoft Hotmail and Mail.ru are among the services said to have been affected.
+
+The security firm that flagged the issue said that it believed many of the usernames and passwords involved had not been leaked before.
+
+
+
+
 ### Beautiful people hacked
 https://www.wired.com/2016/04/beautiful-people-hack/
 
