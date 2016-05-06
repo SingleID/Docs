@@ -43,6 +43,15 @@ http://techcrunch.com/2016/04/25/hundreds-of-spotify-credentials-appear-online-u
 A list containing hundreds of Spotify account credentials – including emails, usernames, passwords, account type and other details – has popped up on the website Pastebin, in what appears to be a possible security breach.
 
 
+### Another Day, Another Hack: Hacker Claims to Have Sold 27M Mate1.com Passwords
+
+http://motherboard.vice.com/read/hacker-claims-to-have-sold-27m-dating-site-passwords-mate1-com-hell-forum
+
+2016-02-29
+
+In February 2016, the dating site mate1.com suffered a huge data breach resulting in the disclosure of over 27 million subscribers' information. The data included deeply personal information about their private lives including drug and alcohol habits, incomes levels and sexual fetishes as well as passwords stored in plain text.
+
+
 ### Hacked Toymaker VTech Admits Breach Actually Hit 6.3 Million Children
 
 http://motherboard.vice.com/read/hacked-toymaker-vtech-admits-breach-actually-hit-63-million-children
