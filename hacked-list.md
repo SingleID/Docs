@@ -10,6 +10,13 @@
 
 ---
 
+### Google Hit by Insider Data Breach
+
+http://www.infosecurity-magazine.com/news/google-hit-by-insider-data-breach
+
+2016-05-10
+
+Google has suffered an embarrassing insider data breach after an employee at a third-party vendor mistakenly sent personal information on an unspecified number of Mountain View employees to another company.
 
 ### Webmail firms probe login 'leak'
 
