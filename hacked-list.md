@@ -18,6 +18,25 @@ http://www.infosecurity-magazine.com/news/google-hit-by-insider-data-breach
 
 Google has suffered an embarrassing insider data breach after an employee at a third-party vendor mistakenly sent personal information on an unspecified number of Mountain View employees to another company.
 
+### 40 Million Fling.com Users' Passwords, Sexual Preferences Stolen
+
+https://hacked.com/40-million-fling-com-users-passwords-sexual-preferences-stolen/
+
+2016-05-06
+
+A large trove of credentials and personal details of tens of millions of users from Fling.com, an adult dating website have turned up on an underground marketplace called the Real Deal, as reported by Motherboard.
+
+The online publication was able to gather a sample of the trove of data from a hacker who goes by the moniker – Peace.
+
+The sample contained users’ credentials such as usernames and passwords in plain text, IP address, date of birth, email addresses, and more. The records also revealed the gender of the user, the fetishes that a user is interested in and other personal preferences.
+
+The hacker claims to be selling 40 million accounts in total for a price of 0.8888 bitcoins, approximately $400 in today’s bitcoin-USD exchange rate.
+
+Notably, the legitimacy of the sample was confirmed to be accurate by the person to whom the Fling.com domain is registered to.
+
+In an email, he revealed that the breach had occurred in 2011.
+
+
 ### Webmail firms probe login 'leak'
 
 http://www.bbc.com/news/technology-36204531
