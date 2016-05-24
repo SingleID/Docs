@@ -164,21 +164,21 @@ The App have to send the following POST DATA, over SSL, to the SingleID Server
 
 PLATFORM
 
-	Permitted values are:
-	Value  | Details
-	---- | -------
-	GCM  | for Android device
-	APNS | for iOs device
-	WM8  | for Windows Phone 8 device
+Permitted values are:
+Value  | Details
+---- | -------
+GCM  | for Android device
+APNS | for iOs device
+WM8  | for Windows Phone 8 device
 
 REGISTRATION_ID
 
-	Is the "Push id" of the Device
-	Value  | Details
-	---- | -------
-	RegistrationId  | for Android device
-	AppleId | for iOs device
-	XXX  | for Windows Phone 8 device
+Is the "Push id" of the Device
+Value  | Details
+---- | -------
+RegistrationId  | for Android device
+AppleId | for iOs device
+XXX  | for Windows Phone 8 device
 
 	
 TOKEN
@@ -189,22 +189,22 @@ Tecnically speaking this is the unique value that could identify a device.
 
 DETECTED_DEVICE_LANGUAGE
 
-	2 char code (from [iso 639 standard](http://en.wikipedia.org/wiki/ISO_639))
+2 char code (from [iso 639 standard](http://en.wikipedia.org/wiki/ISO_639))
 todate allowed value are: it, en, bg, de.
  
 APP_VERSION
 
-	A value between 1.0 and 1.2 
+A value between 1.0 and 1.2 ( at 2016-05 )
 	
 DEVICE_TYPE
 
-	Permitted values are:
-	|Value  | Details
-	|---- | -------
-	|smartphone  | for stat purposes only
-	|tablet | for stat purposes only
-	|wearable  | for stat purposes only
-	|testing | for testing purposes
+Permitted values are:
+|Value  | Details
+|---- | -------
+|smartphone  | for stat purposes only
+|tablet | for stat purposes only
+|wearable  | for stat purposes only
+|testing | for testing purposes
 	
 ACTION_ID
 
@@ -352,16 +352,16 @@ url_waiting_data
 requested_data_group
 	Which type of data the recipient system is asking for. The user must not change this value.
 
-	Permitted values are:
-	|Value  | Meaning
-	|---- | -------
-	|1  | Personal Data / Company Data
-	|1,2,3 | Personal, Billing and Shipping data
-	|1,-2,3  | Personal, Billing and Shipping data ( Without credit card )
-	|1,2,3,4 | Personal, Billing, Shipping and Identification data
-	|1,-2,3,4 | Personal, Billing ( Without credit card ), Shipping and Identification data
-	|1,4,5 | First handshake ( Sensitive account )
-	|1,4,6 | Subsequent authorization requestes ( Sensitive account )
+Permitted values are:
+|Value  | Meaning
+|---- | -------
+|1  | Personal Data / Company Data
+|1,2,3 | Personal, Billing and Shipping data
+|1,-2,3  | Personal, Billing and Shipping data ( Without credit card )
+|1,2,3,4 | Personal, Billing, Shipping and Identification data
+|1,-2,3,4 | Personal, Billing ( Without credit card ), Shipping and Identification data
+|1,4,5 | First handshake ( Sensitive account )
+|1,4,6 | Subsequent authorization requestes ( Sensitive account )
 	
 ssl
 : 	Must be 0 for http or 1 for https ( related to url_waiting_data )
@@ -645,15 +645,15 @@ Requested_data
 	This is the type of data that you could ask to a device.
 These are the allowed values and their meaning
 
-	|String Value  | Meaning
-	|---- | -------
-	|1  | Personal Data / Company Data
-	|1,2,3 | Personal, Billing and Shipping data
-	|1,-2,3  | Personal, Billing and Shipping data ( Without credit card )
-	|1,2,3,4 | Personal, Billing, Shipping and Identification data
-	|1,-2,3,4 | Personal, Billing ( Without credit card ), Shipping and Identification data
-	|1,4,5 | First handshake ( Sensitive account )
-	|1,4,6 | Subsequent authorization requestes ( Sensitive account )
+|String Value  | Meaning
+|---- | -------
+|1  | Personal Data / Company Data
+|1,2,3 | Personal, Billing and Shipping data
+|1,-2,3  | Personal, Billing and Shipping data ( Without credit card )
+|1,2,3,4 | Personal, Billing, Shipping and Identification data
+|1,-2,3,4 | Personal, Billing ( Without credit card ), Shipping and Identification data
+|1,4,5 | First handshake ( Sensitive account )
+|1,4,6 | Subsequent authorization requestes ( Sensitive account )
 	
 
 example
