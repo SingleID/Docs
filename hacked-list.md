@@ -10,6 +10,16 @@
 
 ---
 
+
+### Scrum.org certification and training website hacked
+
+http://www.techworm.net/2016/06/scrum-org-hacked-user-data-crypto-keys-may-stolen.html
+
+2016-06-01
+
+"... we have determined that user’s names, email addresses, encrypted passwords, the password decryption key, and completed certifications and their associated test scores may have been compromised, but at this time we are not able to confirm that any of these items were actually taken, nor is there any evidence that any of this information was used by an unauthorized individual."
+
+
 ### Google Hit by Insider Data Breach
 
 http://www.infosecurity-magazine.com/news/google-hit-by-insider-data-breach
