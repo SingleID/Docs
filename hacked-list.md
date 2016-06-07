@@ -10,6 +10,20 @@
 
 ---
 
+### VK.com HACKED! 100 Million Clear Text Passwords Leaked Online
+
+http://thehackernews.com/2016/06/vk-com-data-breach.html
+
+2016-06-05
+
+Another day, another Data Breach! Now, Russia's biggest social networking site VK.com is the latest in the line of historical data breaches targeting social networking websites.
+
+The same hacker who previously sold data dumps from MySpace, Tumblr, LinkedIn, and Fling.com, is now selling more than 100 Million VK.com records for just 1 Bitcoin (approx. US$580).
+
+The database contains information like full names (first names and last names), email addresses, plain-text passwords, location information, phone numbers and, in some cases, secondary email addresses.
+
+Yes, plain-text passwords.
+
 
 ### Scrum.org certification and training website hacked
 
