@@ -6,6 +6,23 @@
 
 ## List of security breaches that, by design, would never have happened with SingleID
 
+---
+
+### Ubuntu Forums Hacked, 2 Million Users’ Details Stolen
+
+http://thehackernews.com/2016/06/vk-com-data-breach.html
+
+2016-07-15
+
+The Ubuntu forums have been hacked and the IP addresses, usernames, and email addresses of over two million users have been “stolen”. 
+
+The online forum was the only piece of infrastructure compromised, the company say. No other Ubuntu website, repository or update mechanism is known to have been affected. 
+“Known SQL Injection Vulnerability to blame”
+
+Canonical CEO Jane Silber explains: “We were able to confirm there had been an exposure of data and shut down the Forums as a precautionary measure. Deeper investigation revealed that there was a known SQL injection vulnerability in the Forumrunner add-on in the Forums which had not yet been patched.”
+
+The attacker was able to “download portions of the ‘user’ table which contained usernames, email addresses and IPs for 2 million users.”
+
 
 
 ---
