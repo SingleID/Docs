@@ -8,6 +8,16 @@
 
 ---
 
+### OneLogin breached, hacker finds cleartext credential notepads
+
+http://m.theregister.co.uk/2016/08/31/onelogin_breached_hacker_finds_cleartext_credential_notepads
+
+2016-08-31
+
+The online credential manager says its Secure Notes facility was breached, allowing the intruder to read in cleartext notes edited between 2 June and 25 August this year.
+
+Some 12 million customers use OneLogin.
+
 ### Ubuntu Forums Hacked, 2 Million Users’ Details Stolen
 
 http://thehackernews.com/2016/06/vk-com-data-breach.html
