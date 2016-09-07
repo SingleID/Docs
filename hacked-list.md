@@ -8,6 +8,16 @@
 
 ---
 
+### Porn site Brazzers sees leak that leaves 800,000 users exposed
+
+http://motherboard.vice.com/read/nearly-800000-brazzers-porn-site-accounts-exposed-in-forum-hack
+
+2016-09-06
+
+Nearly 800,000 accounts for popular porn site Brazzers have been exposed in a data breach. Although the data originated from the company's separate forum, Brazzers users who never signed up to the forum may also find their details included in the dump.
+
+
+
 ### OneLogin breached, hacker finds cleartext credential notepads
 
 http://m.theregister.co.uk/2016/08/31/onelogin_breached_hacker_finds_cleartext_credential_notepads
@@ -17,6 +27,15 @@ http://m.theregister.co.uk/2016/08/31/onelogin_breached_hacker_finds_cleartext_c
 The online credential manager says its Secure Notes facility was breached, allowing the intruder to read in cleartext notes edited between 2 June and 25 August this year.
 
 Some 12 million customers use OneLogin.
+
+### Opera's service for syncing web browser data hacked, users urged to reset passwords
+
+https://www.engadget.com/2016/08/28/opera-sync-service-hack/
+
+2016-08-28
+
+Opera has confirmed that an unknown hacker managed to gain access to its Opera sync system, potentially compromising the data of about 1.7 million active users. In response to the breach of Opera's web sync feature, which allows users to synchronise their browser data and settings across multiple platforms, the company has issued a forced password reset for all Sync users.
+
 
 ### Ubuntu Forums Hacked, 2 Million Users’ Details Stolen
 
