@@ -7,6 +7,16 @@
 ## List of security breaches that, by design, would never have happened with SingleID
 
 ---
+### ClixSense Data Breach, 6.6 Million users’ records stolen
+
+http://securityaffairs.co/wordpress/51290/data-breach/clixsense-data-breach.html
+
+2016-09-15
+
+“In September 2016, the paid-to-click site ClixSense suffered a data breach which exposed 2.4 million subscriber identities. The breached data was then posted online by the attackers who claimed it was a subset of a larger data breach totalling 6.6 million records. The leaked data was extensive and included names, physical, email and IP addresses, genders and birth dates, account balances and passwords stored as plain text.
+
+Compromised data: Account balances, Dates of birth, Email addresses, Genders, IP addresses, Names, Passwords, Payment histories, Payment methods, Physical addresses, Usernames, Website activity” wrote Hunt.
+
 
 ### Porn site Brazzers sees leak that leaves 800,000 users exposed
 
